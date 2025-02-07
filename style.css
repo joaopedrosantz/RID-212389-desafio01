@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+    font-weight: 590;
+}
+#titulo{
+    background-color: #303030;
+    padding-bottom: 375px;
+
+    
+}
+#titulo-inf{
+    color: #FFFFFF;   
+    font-size: 60px;
+    position: relative;
+    top: 205px;
+    left: 70px;
+}
+#texto-inf{
+    color: #FFFFFF;
+    font-size: 20px;
+    position: relative;
+    top: 260px;
+    right: 895px;
+    font-weight: 400;
+}
+#informacoes{
+    padding-bottom: 80px;
+    background-color:#dddddd;
+}
+#numeros{ 
+    color: #000000;   
+    align-items: center;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.numeros{
+    margin-right: 180px;
+    margin-top: 70px; 
+    font-size: 40px;
+}
+
+#numero1{
+    position: relative;
+    left: 170px;
+}
+#numero2{
+    position: relative;
+    left: 145px;
+}
+#numero3{
+    position: relative;
+    left: 180px;
+
+}
+#texto2{
+    position: relative;
+    right: 60px;
+}
+#texto3{
+    position: relative;
+    right: 90px;
+}
+#textos{
+    color: #161616;
+    align-items: center;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.textos{
+    font-size: 14px;
+    margin-left: 170px;
+
+    
+}
+#sobre{
+    padding-bottom: 80px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+   
+}
+#sobre1{
+     margin-left: 70px;
+     margin-top: 260px;
+     
+}
+#titulo-sobre{
+    font-size: 40px;
+    font-weight: 450;
+    
+    
+    
+}
+#texto-sobre{
+    font-size: 24px;
+    font-weight: 350; 
+}
+#img{
+    margin-top: 50px;
+}
+#formulario{
+    background-color: #303030;
+    padding-bottom: 50px;
+    text-align: center;
+    
+}
+#titulo-form{
+    font-size: 32px;
+    color: #dddddd;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+#nome{
+    color: #FFFFFF;
+    padding-left: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 35px;
+    width: 400px;
+    height: 50px;
+    cursor: pointer;
+}
+#email{
+    color: #FFFFFF;
+    padding-left: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 45px;
+    width: 400px;
+    height: 50px;
+    cursor: pointer;
+}
+button{
+    color: #ffffff;
+    background-color: #C07212;
+    padding-left: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 45px;
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bolder;
+
+}
+button:hover{
+    transform: translateY(-4px);
+    transition-duration: 0,5s;
+    box-shadow: #27240162 0px 15px 20px 0px;
+}
